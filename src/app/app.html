@@ -1,17 +1,31 @@
-<h1>Hello! this is the h1</h1>
+<div class="row flex-grow-1 vh-100">
+  <aside class="col-2 p-3 m-4 bg-light bg-gradient">
+  <h2>Ejercicios</h2>
+    <hr>
+    <div class="d-grid gap-2 " id="enlaces">
+      <p routerLink="/ejercicio1" >Ver Ejercicio 1</p>
 
-<button routerLink="/ejercicio1">Ver Ejercicio 1</button>
-<button routerLink="/ejercicio2">Ver Ejercicio 2</button>
-<button routerLink="/ejercicio3">Ver Ejercicio 3</button>
-<button routerLink="/ejercicio4">Ver Ejercicio 4</button>
-<button routerLink="/ejercicio5">Ver Ejercicio 5</button>
-<button routerLink="/ejercicio6">Ver Ejercicio 6</button>
-<button routerLink="/ejercicio7">Ver Ejercicio 7</button>
-<button routerLink="/ejercicio8">Ver Ejercicio 8</button>
-<button routerLink="/ejercicio9">Ver Ejercicio 9</button>
-<button routerLink="/ejercicio10">Ver Ejercicio 10</button>
+      <p routerLink="/ejercicio2">Ver Ejercicio 2</p>
 
+      <p routerLink="/ejercicio3">Ver Ejercicio 3</p>
 
-<hr>
-<router-outlet></router-outlet>
-<router-outlet />
+      <p routerLink="/ejercicio4">Ver Ejercicio 4</p>
+
+      <p routerLink="/ejercicio5">Ver Ejercicio 5</p>
+
+      <p routerLink="/ejercicio6">Ver Ejercicio 6</p>
+
+      <p routerLink="/ejercicio7">Ver Ejercicio 7</p>
+
+      <p routerLink="/ejercicio8">Ver Ejercicio 8</p>
+
+      <p routerLink="/ejercicio9">Ver Ejercicio 9</p>
+
+      <p routerLink="/ejercicio10">Ver Ejercicio 10</p>
+    </div>
+  </aside>
+  <article class="col-9 bg-light bg-gradient m-4">
+    <router-outlet></router-outlet>
+  </article>
+</div>
+

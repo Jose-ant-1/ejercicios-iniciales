@@ -1,4 +1,8 @@
 <h1>Exercice 3</h1>
-<p>
+<p [ngClass]="colorNota">
   Random between 1 and 10: {{ n }}
 </p>
+
+<b *ngIf="n < 5">Has suspendido</b>
+<b *ngIf="n >= 5 && n < 9">Has aprobado</b>
+<b *ngIf="n >= 9">¡Excelente!</b>

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+body {
+  display: flex;
+}
+
+article {
+  float: left;
+  width: 70%;
+  margin: 2%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  padding: 5%;
+  background-color: gray;
+}
+ */
+
+#enlaces {
+  text-align: center;
+}
