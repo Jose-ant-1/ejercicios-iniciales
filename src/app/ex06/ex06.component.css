@@ -1,0 +1,5 @@
+/* Estilo que se aplica automáticamente si el contenido no es un número */
+input.ng-invalid {
+  border: 2px solid red;
+  background-color: #fff0f0;
+}

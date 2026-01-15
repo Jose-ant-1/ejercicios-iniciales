@@ -8,13 +8,17 @@ import {FormsModule} from "@angular/forms";
     FormsModule
   ],
   templateUrl: './ex06.component.html',
- // styleUrl: './ex06.component.css'
+  styleUrl: './ex06.component.css'
 })
 export class Ex06Component {
   celcius: number = 0;
   fahrenheit: number = 5550;
 
   constructor() {
+  }
+
+  compruebaNumero() {
+    this.celcius
   }
 
   ngOnInit(): void {
@@ -26,10 +30,12 @@ export class Ex06Component {
   }
 
   convertToCelcius() {
+    this.compruebaNumero();
     this.celcius = (this.fahrenheit - 32) * 5 / 9;
   }
 
   converToFahrenheit() {
+    this.compruebaNumero();
     this.fahrenheit = this.celcius * 9 / 5 + 32;
   }
 }
